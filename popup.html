@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Filler</title>
+  <style>
+    /* Add your CSS here */
+    button {
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Profiles</h1>
+  <button id="createProfile">Create Profile</button>
+  <ul id="profilesList"></ul>
+  <div id="profileForm" style="display: none;">
+    <h2>Profile Details</h2>
+    <label for="profileName">Profile Name:</label>
+    <input type="text" id="profileName"><br>
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName"><br>
+    <label for="middleName">Middle Name:</label>
+    <input type="text" id="middleName"><br>
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName"><br>
+    <label for="phoneNumber">Phone Number:</label>
+    <input type="text" id="phoneNumber"><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email"><br>
+    <button id="saveProfile">Save Profile</button>
+    <button id="cancelProfile">Cancel</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
